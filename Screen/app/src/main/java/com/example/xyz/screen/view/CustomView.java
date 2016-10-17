@@ -2,7 +2,6 @@ package com.example.xyz.screen.view;
 
 import android.content.Context;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.Scroller;
 import android.widget.TextView;
@@ -50,7 +49,7 @@ public class CustomView extends TextView{
 //
 //                setTranslationX(translationX);
 //                setTranslationY(translationY);
-                Log.d(TAG, "move, X" + x + " Y" + y);
+//                Log.d(TAG, "move, X" + x + " Y" + y);
                 break;
             case MotionEvent.ACTION_UP:
                 break;
